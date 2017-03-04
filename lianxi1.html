@@ -7,7 +7,7 @@
 </head>
 
 <body>
-    <header>
+    <header class="top">
         <h1>网站一级标题</h1>
         <nav>
             <ul>
@@ -21,10 +21,12 @@
     <section id="main">
         <article>
             <header>
-                <h1>文章一级标题</h1>
+                <h2>文章一级标题</h2>
                 <h2>文章二级标题</h2>
-                <p class="zuozhe">文章作者</p>
-                <time class="fabiaoshijian" datetime="2017-03-04">2017/03/04</time>
+                <p>
+                    <span class="zuozhe">文章作者</span>
+                    <time class="fabiaoshijian" datetime="2017-03-04">2017/03/04</time>
+                </p>
             </header>
             <div class="wenzhang">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -35,10 +37,12 @@
         </article>
         <article>
             <header>
-                <h1>文章一级标题</h1>
+                <h2>文章一级标题</h2>
                 <h2>文章二级标题</h2>
-                <p class="zuozhe">文章作者</p>
-                <time class="fabiaoshijian" datetime="2017-03-04">2017/03/04</time>
+                <p>
+                    <span class="zuozhe">文章作者</span>
+                    <time class="fabiaoshijian" datetime="2017-03-04">2017/03/04</time>
+                </p>
             </header>
             <div class="wenzhang">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -52,36 +56,50 @@
                     <li>列表项目4</li>
                 </ul>
                 <div class="tupianku">
-                    <h1>图片</h1>
-                    <div class="tupian">
-                        <p>好看的图片</p>
-                        <img src="bag.gif" alt="好看的图片">
-                    </div>
-                    <div class="tupian">
-                        <p>好看的图片</p>
-                        <img src="bag.gif" alt="好看的图片">
-                    </div>
-                    <div class="tupian">
-                        <p>好看的图片</p>
-                        <img src="bag.gif" alt="好看的图片">
-                    </div>
-                    <div class="tupian">
-                        <p>好看的图片</p>
-                        <img src="bag.gif" alt="好看的图片">
-                    </div>
-                    <div class="tupian">
-                        <p>好看的图片</p>
-                        <img src="bag.gif" alt="好看的图片">
-                    </div>
+                    <h2>图片</h2>
+                    <ol style="list-style: none;">
+                        <li>
+                            <div class="tupian">
+                                <p>好看的图片</p>
+                                <img src="bag.gif" alt="好看的图片">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="tupian">
+                                <p>好看的图片</p>
+                                <img src="bag.gif" alt="好看的图片">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="tupian">
+                                <p>好看的图片</p>
+                                <img src="bag.gif" alt="好看的图片">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="tupian">
+                                <p>好看的图片</p>
+                                <img src="bag.gif" alt="好看的图片">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="tupian">
+                                <p>好看的图片</p>
+                                <img src="bag.gif" alt="好看的图片">
+                            </div>
+                        </li>
+                    </ol>
                 </div>
             </div>
         </article>
         <article>
             <header>
-                <h1>文章一级标题</h1>
+                <h2>文章一级标题</h2>
                 <h2>文章二级标题</h2>
-                <p class="zuozhe">文章作者</p>
-                <time class="fabiaoshijian" datetime="2017-03-04">2017/03/04</time>
+                <p>
+                    <span class="zuozhe">文章作者</span>
+                    <time class="fabiaoshijian" datetime="2017-03-04">2017/03/04</time>
+                </p>
             </header>
             <div class="wenzhang">
                 <ol>
@@ -89,7 +107,8 @@
                     <li>排名2</li>
                     <li>排名3</li>
                 </ol>
-                <table>
+                <table border=1px>
+                    <div>下面是一个表格，给表格加了一个border="1"好让你看出是一个表格</div>
                     <tr>
                         <th>表头</th>
                         <th>表头</th>
@@ -118,16 +137,15 @@
                     <tr>
                         <td>总计</td>
                         <td colspan="2">1000</td>
-                        <td></td>
                     </tr>
                 </table>
             </div>
         </article>
     </section>
     <aside>
-        <h1>侧栏的标题</h1>
+        <h2>侧栏的标题</h2>
         <form action="" method="POST">
-            <h1>注册窗口标题</h1>
+            <h2>注册窗口标题</h2>
             <label for="email">请输入邮箱地址</label>
             <input type="email" id=email "" name=email "" placeholder="这是一个文本输入框">
             <p>邮箱地址请按要求格式输入</p>
@@ -162,7 +180,7 @@
         </form>
     </aside>
     <footer>
-        版权所有&copy;
+        <p>版权所有&copy;</p>
     </footer>
 </body>
 
