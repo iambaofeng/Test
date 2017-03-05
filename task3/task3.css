@@ -4,6 +4,11 @@
     margin: 0px;
 }
 
+p {
+    margin: 0 0 10px 0;
+    text-indent: 28px;
+}
+
 img {
     border: 1px solid #999;
 }
@@ -18,7 +23,7 @@ div.main {
 }
 
 section.teamName {
-    width: 200px;
+    width: 160px;
     border: 1px solid #999;
     background-color: #fff;
     padding: 20px;
@@ -32,13 +37,15 @@ section.teamName {
     height: 100%
 }
 
-.teamName p {
+.teamName h1 {
+    margin-top: 0px;
     margin-left: 102px;
     text-align: center;
+    font-weight: bold;
 }
 
 section.teamShuoming {
-    margin-left: 262px;
+    margin-left: 222px;
     margin-right: 142px;
     border: 1px solid #999;
     background-color: #fff;
