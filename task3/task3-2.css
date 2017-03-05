@@ -3,7 +3,9 @@
     padding: 0px;
     margin: 0px;
 }
-
+body{
+	padding: 20px;
+}
 p {
     margin: 0 0 10px 0;
     text-indent: 28px;
@@ -14,13 +16,11 @@ img {
 }
 
 div.main {
-    padding: 20px;
     background-color: #eee;
     border: 1px solid #999;
     height: 100%;
-    margin: 20px;
-    overflow: hidden;
-    min-width: 500px;
+    width: 100%;
+    float: left;
 }
 
 section.teamName {
@@ -31,6 +31,8 @@ section.teamName {
     float: left;
     height: 100%;
     overflow: hidden;
+    margin-left: -100%;
+    position: relative;
 }
 
 .teamName .teamLogo {
@@ -46,12 +48,13 @@ section.teamName {
 }
 
 section.teamShuoming {
-    margin-left: 222px;
-    margin-right: 142px;
+    margin-left: 220px;
+    margin-right: 200px;
     border: 1px solid #999;
     background-color: #fff;
     padding: 20px;
     height: 100%;
+
 }
 
 #gerenLogo {
@@ -60,24 +63,15 @@ section.teamShuoming {
     border: 1px solid #999;
     background-color: #fff;
     padding: 20px 20px 0px 20px;
-    float: right;
+    float: left;
     height: 100%;
+    margin-left:-170px;
+    position: relative;
 }
 
 #gerenLogo img {
     margin-bottom: 16px;
+    display: block;
 }
 
-footer {
-    padding: 20px;
-    clear: both;
-    height: 50px;
-    text-align: center;
-    border: 1px solid #999;
-    background-color: #eee;
-    margin: 20px;
-}
 
-span.banquan {
-    line-height: 50px;
-}
