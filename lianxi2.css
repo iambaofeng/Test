@@ -1,0 +1,198 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font: 14px/1.5 "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+    letter-spacing: 1px;
+}
+
+.zhengwen {
+    text-indent: 24px;
+}
+
+strong {
+    font-weight: bold;
+}
+
+body {
+    background-color: rgb(222, 222, 222);
+}
+
+header.top {
+    height: 55px;
+    background-color: rgb(51, 51, 51);
+}
+
+.logo {
+    display: inline-block;
+    margin: 5px 0px 1px 20px;
+}
+
+header.top nav {
+    float: right;
+    height: 49px;
+    margin-right: 13px;
+}
+
+header.top nav li {
+    display: inline-block;
+    line-height: 49px;
+    color: rgb(255, 255, 255);
+    margin-left: 5px;
+}
+
+header.top nav a {
+    color: rgb(255, 255, 255);
+    font-size: 11px;
+    vertical-align: middle;
+    text-decoration: none;
+}
+
+header.top nav a:link a:visited {
+    color: rgb(255, 255, 255);
+}
+
+header.top nav a:hover {
+    color: rgb(150, 150, 150);
+}
+
+#main {
+    clear: both;
+}
+
+article,
+aside {
+    margin: 20px 20px 0px 20px;
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    box-shadow: 1px 2px 2px 1px rgb(160, 160, 160)；
+}
+
+article img {
+    margin: 10px 0px 0px 0px;
+}
+
+article ul {
+    list-style: none;
+    margin: 10px;
+}
+
+article h2 {
+    margin: 14px 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+article h3 {
+    margin: 14px 0;
+    font-size: 15px;
+    color: rgb(120, 120, 120);
+    font-weight: bold;
+}
+
+article header p {
+    margin: 14px 0;
+}
+
+.zuozhe,
+.fabiaoshijian {
+    font-size: 11px;
+    font-weight: bold;
+    color: rgb(120, 120, 120)
+}
+
+firgure {
+    width: 205px;
+    margin: 20px 0px 0 20px;
+    border: 1px solid rgb(120, 120, 120);
+    display: block;
+    padding: 10px;
+}
+
+firgure img {
+    margin: 5px;
+}
+
+figcaption {
+    text-align: center;
+}
+
+article ol {
+    margin: 20px 0px 20px 40px;
+}
+
+table {
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+    /* 合并单元格之间的边框线为一条线*/
+    border: 1px solid rgb(200, 200, 200);
+    }
+
+th {
+    background-color: rgb(51, 51, 51);
+    color: white;
+    width: 30%;
+    padding: 3px;
+    font-weight: bold;
+}
+
+.huise {
+    background-color: rgb(200, 200, 200);
+    font-weight: bold;
+}
+
+td {
+    padding: 3px;
+    font-size: 13px;
+}
+
+.jiewei {
+    width: 15%;
+}
+aside{
+	margin-bottom: 20px;
+}
+footer {
+    height: 70px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+footer p {
+	width: 70%;
+    margin: 10px auto;
+    text-align: center;
+}
+
+form {
+    display: table;
+    border: thin dotted rgb(200, 200, 200);
+    width: 100%;
+    padding: 10px;
+}
+
+.tableRow {
+    display: table-row;
+}
+
+.tableRow p,
+label {
+    display: table-cell;
+    vertical-align: top;
+    padding: 3px;
+    margin: 10px;
+}
+
+.tableRow p:first-child,
+label:first-child {
+    text-align: right;
+}
+
+tableRow label:nth-child(2n) {
+    text-align: left;
+}
+input#submit{
+margin: 0 auto;
+	width: 500px;
+	height: 20px;
+}
