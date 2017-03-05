@@ -1,0 +1,75 @@
+* {
+    font: 14px/1.5 "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+img {
+    border: 1px solid #999;
+}
+
+div.main {
+    padding: 20px;
+    background-color: #eee;
+    border: 1px solid #999;
+    height: 100%;
+    margin: 20px;
+    overflow: hidden;
+}
+
+section.teamName {
+    width: 200px;
+    border: 1px solid #999;
+    background-color: #fff;
+    padding: 20px;
+    float: left;
+    height: 100%;
+    overflow: hidden;
+}
+
+.teamName .teamLogo {
+    float: left;
+    height: 100%
+}
+
+.teamName p {
+    margin-left: 102px;
+    text-align: center;
+}
+
+section.teamShuoming {
+    margin-left: 262px;
+    margin-right: 142px;
+    border: 1px solid #999;
+    background-color: #fff;
+    padding: 20px;
+    height: 100%;
+}
+
+#gerenLogo {
+    text-align: center;
+    width: 80px;
+    border: 1px solid #999;
+    background-color: #fff;
+    padding: 20px 20px 0px 20px;
+    float: right;
+    height: 100%;
+}
+
+#gerenLogo img {
+    margin-bottom: 16px;
+}
+
+footer {
+    padding: 20px;
+    clear: both;
+    height: 50px;
+    text-align: center;
+    border: 1px solid #999;
+    background-color: #eee;
+    margin: 20px;
+}
+
+span.banquan {
+    line-height: 50px;
+}
