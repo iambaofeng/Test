@@ -1,29 +1,30 @@
 *
 {
+    font: 14px 'Helvetica Neue',Helvetica,Arial,'Microsoft Yahei','Hiragino Sans GB','Heiti SC','WenQuanYi Micro Hei',sans-serif;
+
     margin: 0;
-padding: 0;
-    font: 14px "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+    padding: 0;
+
     color: #333;
     /* 初始化页面外边距  字体大小 字体优先级 字体颜色 行间距*/
-
 }
 
 body
 {
+    background-color: #5d5d5d;
 
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
     -ms-align-items: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    background-color: #5d5d5d;
+    -ms-flex-align: center;
+        align-items: center;
     -webkit-box-flex: 0;
-        -ms-flex: none;
-            flex: none;
+    -ms-flex: none;
+        flex: none;
     -ms-flex-line-pack: center;
-        align-content: center;
+    align-content: center;
 }
 /* 页面相对浏览器水平居中 */
 a
@@ -65,13 +66,15 @@ a
 div#main
 {
     width: 892px;
-padding:  0px 44px;
-    background-color: white;
-    -webkit-box-flex: 0;
-        -ms-flex: none;
-            flex: none;
+    height: 1386px;
     margin: 60px auto;
+    padding: 0 44px;
 
+    background-color: white;
+
+    -webkit-box-flex: 0;
+    -ms-flex: none;
+        flex: none;
     /* 这是主页面，主页面里的子元素水平居中 */
 }
 
@@ -80,6 +83,7 @@ header#header
     width: 892px;
     height: 61px;
     margin-bottom: 33px;
+
     border-bottom: 2px solid #938e8c;
 
     -webkit-box-pack: justify;
@@ -112,26 +116,23 @@ header#header p
 }
 
 
-header#header p a:link
+header#header p a
 {
     color: white;
 }
 
-header#header p a:visited
+header#header time
 {
-    color: white;
-}
+    font-family: '黑体';
+    font-size: 12px;
 
-header#header time{
-	font-family: '黑体';
-	font-size: 12px;
-
-	color: #d45d5c;
+    color: #d45d5c;
 }
 div#shanglan
 {
     width: 892px;
     margin-bottom: 50px;
+
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
@@ -144,35 +145,40 @@ div#part1
 
 div#part1-1
 {
+    position: relative;
+
     width: 641px;
     height: 301px;
     margin: 0 0 40px 0;
-    position: relative;
 }
 
-div#part1-1:before{
-	content: "";
-	position: absolute;
-	width:190px;
-	height: 300px;
-	right: 0;
-	top: 0;
-	background-color: rgba(204, 117, 128, 0.5);
-
-}
-div#part1-1:after{
-	content: "";
-	position: absolute;
-	width:190px;
-	height: 300px;
-	left: 0px;
-	top: 0;
-	background-color: rgba(66, 140, 89, 0.5);
-
-}
-div#part1-2
+div#part1-1:before
 {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    width: 190px;
+    height: 300px;
+
+    content: '';
+
+    background-color: rgba(204, 117, 128, .5);
 }
+div#part1-1:after
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 190px;
+    height: 300px;
+
+    content: '';
+
+    background-color: rgba(66, 140, 89, .5);
+}
+
 
 div#part1-2 section:nth-of-type(1)
 {
@@ -259,6 +265,7 @@ div#part1-2 ul
 div#part2
 {
     width: 203px;
+
     background-color: #fff;
 }
 div#part2:before
@@ -282,14 +289,11 @@ div#part2-1 h1
 
 div#part2-1 h1 div.firstletter:first-letter
 {
-
-font-size: 24px;
-
+    font-size: 24px;
 }
 
 div#part2-1 h1 div.firstletter span
 {
-
     border-bottom: 2px solid #000;
 }
 
@@ -357,7 +361,7 @@ div#part2-2-a p:nth-of-type(3)
 
 div#xialan
 {
-    width: 892px;
+    margin-bottom: 40px;
 
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
@@ -451,7 +455,7 @@ img.img-3
 {
     float: right;
 
-    margin: 20px 0 20px 18px;
+    margin: 16px 0 16px 16px;
 }
 div#part4
 {
@@ -480,8 +484,8 @@ div#part4-1-a
 div#part4-1-a h1
 {
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
 }
 div#part4-1-a h1 span
 {
@@ -496,16 +500,14 @@ div#part4-1-a h1 span
     border-left: 3px solid #72b16a;
 
     -webkit-box-flex: .5;
-
-        -ms-flex: .5;
-
-            flex: .5;
+    -ms-flex: .5;
+        flex: .5;
 }
 div#part4-1-a h3
 {
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
 }
 div#part4-1-a h3 span
 {
@@ -523,13 +525,14 @@ div#part4-1-a h3 span
 }
 div#part4-2
 {
-
-
     width: 458px;
     height: 318px;
 
     background-color: #eeedd6;
-justify-content: space-between;
+
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
 }
 div#part4-2 ul
 {
@@ -537,14 +540,14 @@ div#part4-2 ul
     font-size: 16px;
     line-height: 18px;
 
-    margin-top: 25px;
-    margin-left: 30px;
+    margin: 22px;
 
     list-style: inside;
     list-style-image: url('img/task6-ul.png');
 
-    color: #5a5b5b;
     letter-spacing: 1px;
+
+    color: #5a5b5b;
 }
 div#part4-2 li
 {
@@ -558,79 +561,132 @@ div#part4-2 li
 
     color: #5a5b5b;
 }
-#part4-2-1{
--ms-align-items: center;
-align-items: center;
+#part4-2-1
+{
+    -ms-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
 }
-#part4-2-1-1{
-	background-color: #d45d5c;
-	width:260px;
-	height: 160px;
-	-ms-align-items: center;
-	align-items: center;
-	-ms-align-self: flex-end;
-	align-self: flex-end;
-}
-#part4-2-1-1:before{
-content: "0";
-font-size: 110px;
-color: #fff;
-font-family: "微软雅黑";
-border-right: 2px solid #fff;
-padding: 0px 6px;
-margin: 0px 8px 0 0;
-height: 86px;
-display: -webkit-flex;
-display: -moz-flex;
-display: -ms-flex;
-display: -o-flex;
-display: flex;
--ms-align-items: center;
-align-items: center;
-}
+#part4-2-1-1
+{
+    width: 260px;
+    height: 160px;
 
-#part4-2-1-1-1 h2{
-font-size: 21px;
-font-family: "黑体";
-font-style: italic;
-line-height: 24px;
-color: #fff;
+    background-color: #d45d5c;
 
+    -ms-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
+    -ms-align-self: flex-end;
+    -ms-flex-item-align: end;
+        align-self: flex-end;
 }
-#part4-2-1-1-1 p{
-font-size: 12px;
-font-family: "黑体";
-line-height: 12px;
-color: #fff;
+#part4-2-1-1:before
+{
+    font-family: '微软雅黑';
+    font-size: 110px;
 
-}
-#part4-2-1>p{
-	flex:  1;
-font-size: 14px;
-color: #5a5b5b;
-font-family: "黑体";
-font-style: italic;
-line-height: 16px;
+    display: -moz-flex;
+    display:  -ms-flex;
+    display:   -o-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display:      flex;
 
+    height: 86px;
+    margin: 0 8px 0 0;
+    padding: 0 6px;
+
+    content: '0';
+
+    color: #fff;
+    border-right: 2px solid #fff;
+
+    -ms-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
 }
 
-#part4-2-1>p span:nth-of-type(1){
-font-size: 72px;
-color: #d45d5c;
-font-family: "黑体";
-line-height: 14px;
-float: left;
-display: block;
-display: -webkit-flex;
-display: -moz-flex;
-display: -ms-flex;
-display: -o-flex;
-display: flex;
-justify-content: flex-start;
+#part4-2-1-1-1 h2
+{
+    font-family: '黑体';
+    font-size: 21px;
+    font-style: italic;
+    line-height: 24px;
 
-align-items: flex-start;
-height: 14px;
-width: 14px;
-flex: 1;
+    color: #fff;
+}
+#part4-2-1-1-1 p
+{
+    font-family: '黑体';
+    font-size: 12px;
+    line-height: 12px;
+
+    color: #fff;
+}
+#part4-2-1 > p
+{
+    font-family: '黑体';
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+
+    padding: 10px 15px;
+
+    letter-spacing: 1px;
+
+    color: #5a5b5b;
+
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+        flex: 1;
+    -ms-align-self: flex-start;
+    -ms-flex-item-align: start;
+        align-self: flex-start;
 }
 
+#part4-2-1 > p span:nth-of-type(1)
+{
+    font-family: '黑体';
+    font-size: 72px;
+
+    float: left;
+
+    height: 15px;
+    margin-top: -14px;
+    margin-right: 7px;
+    margin-left: -40px;
+
+    color: #d45d5c;
+}
+
+#part4-2-1 > p span:nth-of-type(2)
+{
+    font-family: '黑体';
+    font-size: 72px;
+
+    float: right;
+
+    height: 15px;
+    margin-right: -40px;
+
+    color: #d45d5c;
+}
+footer
+{
+    border-top: 1px solid #938e8e;
+
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+footer p a
+{
+    font-family: '黑体';
+    font-size: 12px;
+
+    color: #d45d5c;
+}
