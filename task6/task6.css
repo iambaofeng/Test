@@ -635,7 +635,16 @@ div#part4-2 li
 
     color: #fff;
 }
-#part4-2-1 > p
+#part4-2-1 > blockquote
+{
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+        flex: 1;
+    -ms-align-self: flex-start;
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+}
+#part4-2-1 > blockquote > p
 {
     font-family: '黑体';
     font-size: 14px;
@@ -647,45 +656,43 @@ div#part4-2 li
     letter-spacing: 1px;
 
     color: #5a5b5b;
-
-    -webkit-box-flex: 1;
-    -ms-flex: 1;
-        flex: 1;
-    -ms-align-self: flex-start;
-    -ms-flex-item-align: start;
-        align-self: flex-start;
 }
-
-#part4-2-1 > p span:nth-of-type(1)
+#part4-2-1 > blockquote p:before
 {
     font-family: '黑体';
     font-size: 72px;
+    font-style: normal;
 
     float: left;
 
-    height: 15px;
-    margin-top: -14px;
+    height: 1px;
+    margin-top: 15px;
     margin-right: 7px;
     margin-left: -40px;
+
+    content: '“';
 
     color: #d45d5c;
 }
 
-#part4-2-1 > p span:nth-of-type(2)
+#part4-2-1 > blockquote p:after
 {
     font-family: '黑体';
     font-size: 72px;
+    font-style: normal;
 
     float: right;
 
     height: 15px;
+    margin-top: 28px;
     margin-right: -40px;
+
+    content: '”';
 
     color: #d45d5c;
 }
 footer
 {
-    /* border-top: 1px solid #938e8e; */
     -webkit-box-pack: end;
     -ms-flex-pack: end;
     justify-content: flex-end;
