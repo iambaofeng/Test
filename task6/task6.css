@@ -82,9 +82,6 @@ header#header
 {
     width: 892px;
     height: 61px;
-    margin-bottom: 33px;
-
-    border-bottom: 2px solid #938e8c;
 
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
@@ -127,6 +124,20 @@ header#header time
     font-size: 12px;
 
     color: #d45d5c;
+}
+#main hr:nth-of-type(1)
+{
+    height: 2px;
+    margin: 0 0 33px 0;
+
+    background-color: #938e8c;
+}
+#main hr:nth-of-type(2)
+{
+    height: 1px;
+    margin: 33px 0 0 0;
+
+    background-color: #938e8c;
 }
 div#shanglan
 {
@@ -266,23 +277,21 @@ div#part2
 {
     width: 203px;
 
+    border-top: 2px solid #cc8091;
     background-color: #fff;
 }
-div#part2:before
-{
-    width: 203px;
-    height: 2px;
-    margin-bottom: 10px;
 
-    content: '';
-
-    background-color: #cc8091;
-}
 div#part2-1 h1
 {
     font-family: '微软雅黑';
-    font-size: 18px;
+    font-size: 24px;
     font-weight: normal;
+    font-variant: small-caps;
+    line-height: 30px;
+
+    margin-top: 8px;
+
+    text-decoration: underline;
 
     color: #000;
 }
@@ -361,8 +370,6 @@ div#part2-2-a p:nth-of-type(3)
 
 div#xialan
 {
-    margin-bottom: 40px;
-
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
@@ -401,7 +408,7 @@ div#part3 h1:nth-of-type(1) span
     font-style: italic;
     line-height: 55px;
 
-    margin-right: 20px;
+    margin-right: 10px;
 
     color: #f5e327;
 }
@@ -418,6 +425,7 @@ div#part3 h1:nth-of-type(2)
 {
     font-family: '黑体';
     font-size: 33px;
+    font-weight: bold;
     line-height: 42px;
 
     color: #11456b;
@@ -677,8 +685,7 @@ div#part4-2 li
 }
 footer
 {
-    border-top: 1px solid #938e8e;
-
+    /* border-top: 1px solid #938e8e; */
     -webkit-box-pack: end;
     -ms-flex-pack: end;
     justify-content: flex-end;
