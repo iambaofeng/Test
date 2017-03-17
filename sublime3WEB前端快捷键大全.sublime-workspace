@@ -1,0 +1,993 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ctrl",
+				"ctrl+shift"
+			],
+			[
+				"sh",
+				"shfit+右键"
+			],
+			[
+				"n",
+				"nbsp\t&nbsp;"
+			],
+			[
+				"cla",
+				"class"
+			],
+			[
+				"header",
+				"header\t<header>"
+			],
+			[
+				"top",
+				"top-logo"
+			],
+			[
+				"no",
+				"normal"
+			],
+			[
+				"fs",
+				"font-style"
+			],
+			[
+				"firs",
+				"first-letter"
+			],
+			[
+				"flexs",
+				"flex-start"
+			],
+			[
+				"br",
+				"br\tborder-right"
+			],
+			[
+				"ls",
+				"letter-spacing"
+			],
+			[
+				"ur",
+				"url()"
+			],
+			[
+				"bgci",
+				"background-image"
+			],
+			[
+				"dat",
+				"datetime\tAttr"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"fld",
+				"flex-end"
+			],
+			[
+				"warp-",
+				"warp-col"
+			],
+			[
+				"war",
+				"warp-col"
+			],
+			[
+				"wa",
+				"warp-row"
+			],
+			[
+				"not",
+				"nth-of-type()"
+			],
+			[
+				"warp",
+				"warp-row"
+			],
+			[
+				"par",
+				"part2"
+			],
+			[
+				"part4-",
+				"part4-1-1-1"
+			],
+			[
+				"min",
+				"minwarp-v"
+			],
+			[
+				"minw",
+				"minwarp-v"
+			],
+			[
+				"tas",
+				"task6-ul.png\tw:8 h:8"
+			],
+			[
+				"img",
+				"img/"
+			],
+			[
+				"op",
+				"op+\topacity: $1;\nfilter: alpha(opacity=$2);"
+			],
+			[
+				"font-s",
+				"font-stretch"
+			],
+			[
+				"be",
+				"before\t pseudo selector"
+			],
+			[
+				"fle",
+				"fle\t:first-letter"
+			],
+			[
+				"fr",
+				"fl-r\tfloat: right;"
+			],
+			[
+				"df",
+				"d-f\tdisplay: flex;"
+			],
+			[
+				"tra",
+				"translate()"
+			],
+			[
+				"bod-b",
+				"border-bottom"
+			],
+			[
+				"boxs",
+				"box-shadow"
+			],
+			[
+				"ca",
+				"capitalize"
+			],
+			[
+				"td",
+				"td\ttext-decoration: ${1:none};"
+			],
+			[
+				"wdi",
+				"width"
+			],
+			[
+				"font",
+				"font-style"
+			],
+			[
+				"le",
+				"letter-spacing"
+			],
+			[
+				"d",
+				"display"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"bo",
+				"bottom"
+			],
+			[
+				"sp",
+				"space-between"
+			],
+			[
+				"c",
+				"columns"
+			],
+			[
+				"ali",
+				"align-items"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"tar",
+				"table-row"
+			],
+			[
+				"tac",
+				"table-cell"
+			],
+			[
+				"tabc",
+				"table-cell"
+			],
+			[
+				"re",
+				"relative"
+			],
+			[
+				"t",
+				"transform"
+			],
+			[
+				"bot",
+				"both"
+			],
+			[
+				"bloc",
+				"block"
+			],
+			[
+				"po",
+				"pos\tposition: ${1:relative};"
+			],
+			[
+				"bl",
+				"block"
+			],
+			[
+				"ov",
+				"ov\toverflow: ${1:hidden};"
+			],
+			[
+				"te",
+				"text-indent"
+			],
+			[
+				"mat",
+				"margin-top"
+			],
+			[
+				"ma-l",
+				"margin-left"
+			],
+			[
+				"ab",
+				"absolute"
+			],
+			[
+				"cl",
+				"clear"
+			],
+			[
+				"bor",
+				"border-width"
+			],
+			[
+				"w",
+				"white"
+			],
+			[
+				"nth",
+				"nth-child()"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"f",
+				"first\t pseudo selector"
+			],
+			[
+				"chi",
+				"nth-child\t pseudo selector"
+			],
+			[
+				"ta",
+				"table\t element"
+			],
+			[
+				"so",
+				"solid"
+			],
+			[
+				"borders",
+				"border-spacing"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"wit",
+				"white"
+			],
+			[
+				"wor",
+				"word-spacing"
+			],
+			[
+				"fons",
+				"font-size"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"lis",
+				"list-style"
+			],
+			[
+				"list",
+				"list-d\tlist-style-type: disc;"
+			],
+			[
+				"v",
+				"visited\t pseudo selector"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"li",
+				"list-style"
+			],
+			[
+				"fonts",
+				"font-size"
+			],
+			[
+				"tesxt",
+				"text-decoration-style"
+			],
+			[
+				"di",
+				"d-i\tdisplay: inline;"
+			],
+			[
+				"fig",
+				"figcaption\t<figcaption>"
+			],
+			[
+				"ce",
+				"checked\tAttr"
+			],
+			[
+				"va",
+				"value\tAttr"
+			],
+			[
+				"Git",
+				"git-cmd.exe"
+			],
+			[
+				"aqi",
+				"aqi-input"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"fi",
+				"firstChild: Node\tNode"
+			],
+			[
+				"doc",
+				"document"
+			],
+			[
+				"geta",
+				"getAttribute( name: DOMString ): DOMString\tElement"
+			],
+			[
+				"to",
+				"toString(): string\tFunction"
+			],
+			[
+				"e",
+				"else if()"
+			],
+			[
+				"for",
+				"for\tfor (…) {…} (Improved Native For-Loop)"
+			],
+			[
+				"m",
+				"message"
+			],
+			[
+				"test",
+				"test( s: string ): boolean\tRegExp"
+			],
+			[
+				"p",
+				"placeholder\tAttr"
+			],
+			[
+				"gi",
+				"background.gif\tw:800 h:800"
+			],
+			[
+				"me",
+				"method\tAttr"
+			],
+			[
+				"in",
+				"inside"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"boders",
+				"border-spacing"
+			],
+			[
+				"it",
+				"italic"
+			],
+			[
+				"ca-s",
+				"caption-side"
+			],
+			[
+				"mr",
+				"margin-right"
+			],
+			[
+				"g",
+				"getAttribute"
+			],
+			[
+				"if",
+				"if\tif"
+			],
+			[
+				"on",
+				"onclick"
+			],
+			[
+				"ge",
+				"getElementById"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"r",
+				"return"
+			],
+			[
+				"links",
+				"links"
+			],
+			[
+				"i",
+				"imagegallery"
+			],
+			[
+				"pr",
+				"prepareLinks"
+			],
+			[
+				"l",
+				"links"
+			],
+			[
+				"fo",
+				"for\tfor (…) {…}"
+			],
+			[
+				"bod",
+				"body_element"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"lstn",
+				"list:n\tlist-style-type:none"
+			],
+			[
+				"textd",
+				"text-decoration"
+			],
+			[
+				"scrip",
+				"script\tTag"
+			],
+			[
+				"script",
+				"script\tTag"
+			],
+			[
+				"s",
+				"source"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 490.0,
+		"last_filter": "p",
+		"selected_items":
+		[
+			[
+				"p",
+				"Git: Push"
+			],
+			[
+				"c",
+				"Git: Commit"
+			],
+			[
+				"a",
+				"Git: Quick Add"
+			],
+			[
+				"ap",
+				"Autoprefix CSS"
+			],
+			[
+				"C",
+				"Git: Commit"
+			],
+			[
+				"A",
+				"Git: Quick Add"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				" che",
+				"Git: Checkout Current File"
+			],
+			[
+				"checkout ",
+				"Git: Checkout"
+			],
+			[
+				"git",
+				"Git: Log"
+			],
+			[
+				"push",
+				"Git: Push"
+			],
+			[
+				"add",
+				"Git: Quick Add"
+			],
+			[
+				"pu",
+				"Git: Push"
+			],
+			[
+				"com",
+				"Git: Commit"
+			],
+			[
+				"gitc",
+				"Git: Commit"
+			],
+			[
+				"gita",
+				"Git: Quick Add"
+			],
+			[
+				"gitp",
+				"Git: Push"
+			],
+			[
+				"gitpush",
+				"Git: Push"
+			],
+			[
+				"git:add",
+				"Git: Quick Add"
+			],
+			[
+				"git ",
+				"Git: Commit"
+			],
+			[
+				"git remote ",
+				"Git: Add Remote"
+			],
+			[
+				"gits",
+				"Git: Status"
+			],
+			[
+				"git rem",
+				"Git: Track Remote Branch"
+			],
+			[
+				"Git:s",
+				"Git: Push"
+			],
+			[
+				"Git:init",
+				"Git: Diff All Files (Ignore Whitespace)"
+			]
+		],
+		"width": 632.0
+	},
+	"console":
+	{
+		"height": 162.0,
+		"history":
+		[
+			"git remote add origin git@github.com:iambaofeng/Test.git",
+			"Git:init",
+			"git:init",
+			"Git:init",
+			"git:init",
+			"Git:init",
+			"git:init",
+			"git",
+			"Git:init",
+			"git:init",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc",
+		"/E/test/task7/task7.css",
+		"/E/test/task6/task6.css",
+		"/E/test/task6/task6.html",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/Color Highlighter/Default.sublime-keymap",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/CSS Extended Completions/css_style_completions.sublime-settings",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/Autoprefixer/Autoprefixer.sublime-settings",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/CSScomb/Default.sublime-keymap",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/Color Highlighter/ColorHighlighter.sublime-settings",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/SideBarEnhancements/Side Bar.sublime-settings",
+		"/E/test/task4/task4.css",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/SublimeGit/SublimeGit.sublime-settings",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/SublimeGit/Default.sublime-keymap",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/SublimeGit/Default (Windows).sublime-keymap",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/ColorHighlighter.sublime-settings",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/bh_core.sublime-settings",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/BracketHighlighter/bh_core.sublime-settings",
+		"/E/test/task5/task5.css",
+		"/E/test/task5/task5.html",
+		"/E/test/task4/task4.html",
+		"/E/test/task3/task3.html",
+		"/E/test/task3/task3.css",
+		"/E/test/task3/task3-2.html",
+		"/E/test/task3/task3-2.css",
+		"/E/test/lianxi2.css",
+		"/E/test/task3.css",
+		"/E/test/lianxi2.html",
+		"/C/Users/Administrator/Desktop/hfhtmlcss/chapter14/starbuzz/starbuzz.css",
+		"/E/test/test.html",
+		"/C/Users/Administrator/Desktop/hfhtmlcss/chapter12/starbuzz/index.html",
+		"/C/Users/Administrator/.ssh/id_rsa.pub",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/SublimeGit.sublime-settings",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/Git.sublime-settings",
+		"/C/Users/Administrator/.ssh/github_rsa.pub",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/Git/Git.sublime-settings",
+		"/D/Test/test.html",
+		"/E/js/test.js",
+		"/C/Users/Administrator/Desktop/hfhtmlcss/chapter14/starbuzz/form.html",
+		"/C/Users/Administrator/Desktop/hfhtmlcss/chapter14/starbuzz/starbuzz1.css",
+		"/C/Users/Administrator/Desktop/hfhtmlcss/chapter14/starbuzz/styledform.css",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/Emmet/Default (Windows).sublime-keymap",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/Emmet/Emmet.sublime-settings",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/Emmet.sublime-settings",
+		"/C/Users/Administrator/Desktop/hfhtmlcss/chapter14/contest/form.html",
+		"/C/Users/Administrator/Desktop/hfhtmlcss/chapter14/contest/contest.php",
+		"/C/Users/Administrator/Desktop/hfhtmlcss/chapter13/journal/journal.html",
+		"/C/Users/Administrator/Desktop/hfhtmlcss/chapter13/journal/journal.css",
+		"/C/Users/Administrator/Desktop/hfhtmlcss/chapter13/journal/table.html",
+		"/C/Users/Administrator/Desktop/hfhtmlcss/chapter13/journal-complete/journal.css",
+		"/C/Users/Administrator/Desktop/lianxi/lianxi.html",
+		"/C/Users/Administrator/Desktop/lianxi/lianxi.js",
+		"/C/Users/Administrator/Desktop/lianxi/lianxi",
+		"/C/Users/Administrator/Desktop/xiangce/style/xiangce.css",
+		"/C/Users/Administrator/Desktop/xiangce/showPic.js",
+		"/C/Users/Administrator/Desktop/xiangce.html",
+		"/C/Users/Administrator/Desktop/hfhtmlcss/chapter10/lounge-complete/lounge.html",
+		"/C/Users/Administrator/Desktop/Color Scheme - Default/Monokai.tmTheme",
+		"/C/Program Files/Sublime Text 3/Packages/Color Scheme - Default.sublime-package",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/BracketHighlighter/bh_tag.sublime-settings",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/HTML-CSS-JS Prettify/Default (Windows).sublime-keymap",
+		"/C/Users/Administrator/Desktop/hfhtmlcss/chapter10/lounge-complete/lounge.css",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/HTMLBeautify/HTMLBeautify.sublime-settings",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/Alignment/Default (Windows).sublime-keymap",
+		"/E/task99/css/main.css",
+		"/E/task99/index.html",
+		"/E/task99/css/reset.css",
+		"/E/task99/index",
+		"/E/web/index.html"
+	],
+	"find":
+	{
+		"height": 33.0
+	},
+	"find_in_files":
+	{
+		"height": 126.0,
+		"where_history":
+		[
+			"E:\\test\\task6"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\t<",
+			"li",
+			"class",
+			"top",
+			"<li",
+			"button",
+			"li",
+			">\n",
+			"li",
+			"<p>丰富多彩的公益活动，发挥新世界的主人公意识</p>\n\t\t<img src=\"\" alt=\"\">\n\t\t",
+			"打造全新世界观",
+			"div",
+			"class",
+			"xialan",
+			"article",
+			"what",
+			"warp-col",
+			"warp-row",
+			"main",
+			"h1",
+			"child",
+			"header",
+			"part2-2",
+			"wenzhang-2",
+			"img4-1",
+			"part4-1",
+			"xialan",
+			".top",
+			".part1-2",
+			"wenzhang-1",
+			".part2-1",
+			"img-1",
+			"wrap-col",
+			".part2",
+			".xialan",
+			".img4-1",
+			"img-2",
+			"wenzhang-3",
+			".shanglan",
+			".wenzhang-1",
+			".wenzhang-2",
+			".part3",
+			"class=\"part3\"",
+			"class=\"part4\"",
+			".part4",
+			".wenzhang-3",
+			"class=\"wenzhang-3\"",
+			"minwarp-v",
+			"minwarp-r",
+			"section",
+			"left",
+			".left",
+			"shanglan",
+			":after",
+			"child",
+			"size",
+			"header",
+			"微软雅黑",
+			"line",
+			"div",
+			"aside",
+			"\";\n",
+			"h2",
+			"div",
+			"width",
+			"gif",
+			" \"",
+			"h2",
+			"td",
+			"class=\"tableRow\">",
+			"div",
+			"<div class=\"tableRow\">",
+			"li",
+			"<h2>文章二级标题</h2>",
+			"class=\"tupian\"",
+			"\">",
+			"div",
+			"p",
+			"<span class=\"zuozhe\">文章作者</span>\n                <time class=\"fabiaoshijian\" datetime=\"2017-03-04\">2017/03/04</time>",
+			"<p class=\"zuozhe\">文章作者</p>",
+			"h1",
+			"<div class=\"tupian\">\n                        <p>好看的图片</p>\n                        <img src=\"bag.gif\" alt=\"好看的图片\">\n                    </div>",
+			"                    \t<",
+			"操作",
+			"li",
+			"remove_tag",
+			"Remove Tag",
+			"tag",
+			"p",
+			"<br>",
+			"...\n",
+			"smooth",
+			"h3"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"section",
+			"col",
+			"row",
+			"header#header",
+			"part3-2",
+			"part4-1",
+			"part4-2",
+			"",
+			"#part1-2",
+			"part1-2",
+			"#part2-1",
+			"part2-1",
+			"#part2",
+			"#xialan",
+			"#img4-1",
+			"img4-1",
+			"part4-1",
+			"#shanglan",
+			"#wenzhang-1",
+			"#wenzhang-2",
+			"#part3",
+			"id=\"part3\"",
+			"id=\"part4\"",
+			"#part4",
+			"#wenzhang-3",
+			"id=\"wenzhang-3\"",
+			"warp-col",
+			"warp-row",
+			"div",
+			"\nMicrosoft YaHei",
+			"\ndiv.part2",
+			"",
+			"<h3>文章二级标题</h3>",
+			"<span class=\"zuozhe\">文章作者</span>",
+			"h2",
+			"",
+			"h2"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 33.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.CSS Extended Completions":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "sublime3WEB前端快捷键大全.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 312.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
